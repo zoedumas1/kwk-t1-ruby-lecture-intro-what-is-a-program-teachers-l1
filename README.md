@@ -64,4 +64,4 @@ lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' f
 
 That last line, `lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)` is an error caused by the word in the source of our program. 
 
-The next lesson will teach you all about reading error messages.
+We'll soon learn all about reading error messages.
