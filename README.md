@@ -41,6 +41,27 @@ ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-darwin14]
 
 When you type in `ruby -v` you should see the version of Ruby you are currently running.
 
-To run the program from the root of this lab's directory 
+To run the program from the root of this lab's directory type: `ruby lib/a_ruby_program.rb`.
 
 ### 4 - Words in a Program
+
+Every word and character in a program has to be valid code for the ruby language. Basically, every word can be one of three possible things:
+
+1. A Ruby keyword, something that's part of the ruby language.
+2. Literal data, things like "Strings" and Numbers 1,2.
+3. Barewords you define and create, things like variables and methods.
+
+Anything that isn't one of those is invalid and the Ruby interpreter will throw an error. If you read the output from the program run, you'll see the last line of output is:
+
+```
+Programs are composed of basically three things:
+A language's keywords, like 'if' or 'end' (approximately 43).
+Literal pieces of data like this very sentence (or String).
+Finally, barewords, or variables, that are set equal to things.
+Anything that isn't one of those will cause an error.
+lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)
+```
+
+That last line, `lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)` is an error caused by the word in the source of our program. 
+
+The next lesson will teach you all about reading error messages.
