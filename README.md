@@ -32,7 +32,7 @@ Depending on the programming language you're using, it will either be a [compile
 
 ### 3 - Running a Ruby Program
 
-Once you have a ruby program as a file, like the example in `lib/a_ruby_program.rb`, you can run it through the ruby interpreter to execute it. Your ruby interpreter is accessible via the `ruby` command in your command line (assuming you have ruby install correctly).
+Once you have a ruby program as a file, like the example in `lib/a_ruby_program.rb`, you can run it through the ruby interpreter to execute it. Your ruby interpreter is accessible via the `ruby` command in your command line (assuming you have ruby installed correctly).
 
 ```bash
 ruby -v
