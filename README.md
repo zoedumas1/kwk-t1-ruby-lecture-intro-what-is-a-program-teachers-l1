@@ -1,9 +1,3 @@
----
-tags: introduction, basics, lecture
-language: ruby
-type: video
----
-
 # Ruby Lecture: Introduction - What is a Program?
 
 <video controls width="100%">
