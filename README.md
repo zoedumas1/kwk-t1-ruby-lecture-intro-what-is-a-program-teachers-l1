@@ -4,7 +4,7 @@
 
 * Describe a program.
 * Distinguish between interpreted and compiled programs.
-* Run ruby program in your terminal.
+* Run a ruby program in your terminal.
 * List and describe the words that compose code: keywords, barewords, and data.
 * Identify when and why errors occur in programming.
 
