@@ -8,10 +8,7 @@
 * List and describe the words that compose code: keywords, barewords, and data.
 * Identify when and why errors occur in programming.
 
-<video controls width="100%">
-  <source src="http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-what-is-a-program/ruby-lecture-what-is-a-program.mp4" type="video/mp4" >
-    The video accompanying this lesson is best enjoyed on Learn.co
-</video>
+<iframe width="960" height="720" src="https://www.youtube.com/embed/P1cUm7BokaQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 [MP4](http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-what-is-a-program/ruby-lecture-what-is-a-program.mp4)
 
