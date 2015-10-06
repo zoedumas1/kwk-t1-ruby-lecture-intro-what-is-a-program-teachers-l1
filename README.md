@@ -10,15 +10,16 @@
 
 <video controls width="100%">
   <source src="http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-what-is-a-program/ruby-lecture-what-is-a-program.mp4" type="video/mp4" >
-    The video accompanying this lab is best enjoyed on Learn.co
+    The video accompanying this lesson is best enjoyed on Learn.co
 </video>
 
 [MP4](http://flatiron-videos.s3.amazonaws.com/ironboard/ruby/ruby-lecture-what-is-a-program/ruby-lecture-what-is-a-program.mp4)
 
-
 ### What's a Program?
 
-All programs are just files on your computer filled with text. That text has a special syntax we call code. The programming language you're using defines the syntax of the code you are allowed to write. Programs are converted to [machine code](https://en.wikipedia.org/wiki/Machine_code) so that the computer can understand it. 
+[Source Code](https://github.com/learn-co-students/ruby-lecture-intro-what-is-a-program-q-000/archive/1.0.0.zip) - Download and open to follow along.
+
+All programs are just files on your computer filled with text. That text has a special syntax we call code. The programming language you're using defines the syntax of the code you are allowed to write. Programs are converted to [machine code](https://en.wikipedia.org/wiki/Machine_code) so that the computer can understand it.
 
 ### Interpreted vs Compiled
 
@@ -35,7 +36,7 @@ ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-darwin14]
 
 When you type in `ruby -v` you should see the version of Ruby you are currently running.
 
-To run the program from the root of this lab's directory type: `ruby lib/a_ruby_program.rb`.
+To run the program from the root of this lesson's directory you [downloaded](https://github.com/learn-co-students/ruby-lecture-intro-what-is-a-program-q-000/archive/1.0.0.zip) type: `ruby lib/a_ruby_program.rb`.
 
 ### Words in a Program
 
@@ -56,6 +57,6 @@ Anything that isn't one of those will cause an error.
 lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)
 ```
 
-That last line, `lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)` is an error caused by the word in the source of our program. 
+That last line, `lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)` is an error caused by the word in the source of our program.
 
 We'll soon learn all about reading error messages.
