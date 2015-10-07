@@ -4,7 +4,7 @@
 
 * Describe a program.
 * Distinguish between interpreted and compiled programs.
-* Run a ruby program in your terminal.
+* How to run a ruby program in your terminal.
 * List and describe the words that compose code: keywords, barewords, and data.
 * Identify when and why errors occur in programming.
 
@@ -14,8 +14,6 @@
 
 ### What's a Program?
 
-[Source Code](https://github.com/learn-co-curriculum/ruby-lecture-intro-what-is-a-program/archive/1.0.0.zip) - Download and open to follow along.
-
 All programs are just files on your computer filled with text. That text has a special syntax we call code. The programming language you're using defines the syntax of the code you are allowed to write. Programs are converted to [machine code](https://en.wikipedia.org/wiki/Machine_code) so that the computer can understand it.
 
 ### Interpreted vs Compiled
@@ -24,16 +22,16 @@ Depending on the programming language you're using, it will either be a [compile
 
 ### Running a Ruby Program
 
-Once you have a ruby program as a file, like the example in `lib/a_ruby_program.rb`, you can run it through the ruby interpreter to execute it. Your ruby interpreter is accessible via the `ruby` command in your command line (assuming you have ruby installed correctly).
+Once you have a ruby program as a file, you can run it through the ruby interpreter to execute it. Your ruby interpreter is accessible via the `ruby` command in your command line (assuming you have ruby installed correctly).
+
+When you type in `ruby -v` you should see the version of Ruby you are currently running.
 
 ```bash
 ruby -v
 ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-darwin14]
 ```
 
-When you type in `ruby -v` you should see the version of Ruby you are currently running.
-
-To run the program from the root of this lesson's directory you [downloaded](https://github.com/learn-co-students/ruby-lecture-intro-what-is-a-program-q-000/archive/1.0.0.zip) type: `ruby lib/a_ruby_program.rb`.
+As an example, to run a ruby program that was stored in `some-program.rb` you would simply type: `ruby some-program.rb`. 
 
 ### Words in a Program
 
@@ -43,7 +41,9 @@ Every word and character in a program has to be valid code for the ruby language
 2. Literal data, things like "Strings" and Numbers 1,2.
 3. Barewords you define and create, things like variables and methods.
 
-Anything that isn't one of those is invalid and the Ruby interpreter will throw an error. If you read the output from the program run, you'll see the last line of output is:
+Anything that isn't one of those is invalid and the Ruby interpreter will throw an error. 
+
+Let's say you ran a program, and saw the following output (pay attention to the last line):
 
 ```
 Programs are composed of basically three things:
@@ -54,6 +54,6 @@ Anything that isn't one of those will cause an error.
 lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)
 ```
 
-That last line, `lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)` is an error caused by the word in the source of our program.
+That last line, `lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)` is telling you that there was an error caused by an unrecognized word in the source of our program, more specifically on line 23.
 
 We'll soon learn all about reading error messages.
