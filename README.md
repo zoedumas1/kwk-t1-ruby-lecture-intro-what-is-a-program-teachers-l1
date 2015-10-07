@@ -14,7 +14,7 @@
 
 ### What's a Program?
 
-[Source Code](https://github.com/learn-co-students/ruby-lecture-intro-what-is-a-program-q-000/archive/1.0.0.zip) - Download and open to follow along.
+[Source Code](https://github.com/learn-co-curriculum/ruby-lecture-intro-what-is-a-program/archive/1.0.0.zip) - Download and open to follow along.
 
 All programs are just files on your computer filled with text. That text has a special syntax we call code. The programming language you're using defines the syntax of the code you are allowed to write. Programs are converted to [machine code](https://en.wikipedia.org/wiki/Machine_code) so that the computer can understand it.
 
