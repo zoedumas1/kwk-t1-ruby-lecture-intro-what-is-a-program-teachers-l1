@@ -54,6 +54,6 @@ Anything that isn't one of those will cause an error.
 lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)
 ```
 
-That last line, `lib/a_ruby_program.rb:23:in `<main>': undefined local variable or method `see' for main:Object (NameError)` is telling you that there was an error caused by an unrecognized word in the source of our program, more specifically on line 23.
+That last line, `lib/a_ruby_program.rb:23:in '<main>': undefined local variable or method 'see' for main:Object (NameError)` is telling you that there was an error caused by an unrecognized word in the source of our program, more specifically on line 23.
 
 We'll soon learn all about reading error messages.
