@@ -22,7 +22,7 @@ Depending on the programming language you're using, it will either be a [compile
 
 ### Running a Ruby Program
 
-Once you have a ruby program as a file, you can run it through the ruby interpreter to execute it. Your ruby interpreter is accessible via the `ruby` command in your command line (assuming you have ruby installed correctly).
+Once you have a Ruby program as a file, you can run it through the Ruby interpreter to execute it. Your Ruby interpreter is accessible via the `ruby` command in your command line (assuming you have ruby installed correctly).
 
 When you type in `ruby -v` you should see the version of Ruby you are currently running.
 
@@ -31,11 +31,11 @@ ruby -v
 ruby 2.2.2p95 (2015-04-13 revision 50295) [x86_64-darwin14]
 ```
 
-As an example, to run a ruby program that was stored in `some-program.rb` you would simply type: `ruby some-program.rb`. 
+As an example, to run a Ruby program that was stored in `some-program.rb` you would simply type: `ruby some-program.rb`. 
 
 ### Words in a Program
 
-Every word and character in a program has to be valid code for the ruby language. Basically, every word can be one of three possible things:
+Every word and character in a program has to be valid code for the Ruby language. Basically, every word can be one of three possible things:
 
 1. A Ruby keyword, something that's part of the ruby language.
 2. Literal data, things like "Strings" and Numbers 1,2.
