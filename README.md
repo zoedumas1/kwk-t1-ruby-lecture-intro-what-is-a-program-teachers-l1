@@ -38,7 +38,7 @@ As an example, to run a Ruby program that was stored in `some-program.rb` you wo
 Every word and character in a program has to be valid code for the Ruby language. Basically, every word can be one of three possible things:
 
 1. A Ruby keyword, something that's part of the ruby language.
-2. Literal data, things like "Strings" and Numbers 1,2.
+2. Literal data, things like "Strings" and numbers like 1 or 2.
 3. Barewords you define and create, things like variables and methods.
 
 Anything that isn't one of those is invalid and the Ruby interpreter will throw an error. 
@@ -59,3 +59,5 @@ That last line, `lib/a_ruby_program.rb:23:in '<main>': undefined local variable 
 We'll soon learn all about reading error messages.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/ruby-lecture-intro-what-is-a-program' title='What is a Program?'>What is a Program?</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/ruby-lecture-intro-what-is-a-program'>What is a Program?</a> on Learn.co and start learning to code for free.</p>
