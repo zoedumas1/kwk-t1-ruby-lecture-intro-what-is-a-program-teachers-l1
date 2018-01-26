@@ -58,8 +58,10 @@ That last line, `lib/a_ruby_program.rb:23:in '<main>': undefined local variable 
 
 We'll soon learn all about reading error messages.
 
-If you want to try this out on your own, you can run `ruby lib/a_ruby_program.rb` in your terminal and see it.  In order to fix it, we can just change the last line of the `lib/a_ruby_program.rb` file from `see` to `puts "see?"`.  Then re-run the command `ruby lib/a_ruby_program.rb`.
+If you want to test this out on your own, you can type `ruby lib/a_ruby_program.rb` in your terminal to view the error message.
 
-Hurray!  The error is gone!  Now that it's all fixed, we can submit the lesson by running `learn submit`.  This will do several `git` commands 'behind the curtains', but we'll learn more about that later.  (if the "Submit Pull Request" light hasn't turned green after running `learn submit` try refreshing the page)
+In order to correct the error all we need to do is update the last line of `lib/a_ruby_program.rb` from `see`  to `puts "see?"`.  If we type `ruby lib/a_ruby_program.rb` again we will no longer see an error message. Hurray!
+
+Now that everything is working, we can submit our solution by typing `learn submit` in our terminal.  `learn submit` will run several commands behind the curtains and will send us your solution. If the "Submit Pull Request" light hasn't turned green after running `learn submit` try refreshing the page.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/ruby-lecture-intro-what-is-a-program'>What is a Program?</a> on Learn.co and start learning to code for free.</p>
