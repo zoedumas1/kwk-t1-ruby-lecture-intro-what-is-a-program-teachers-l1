@@ -59,3 +59,4 @@ That last line, `lib/a_ruby_program.rb:23:in '<main>': undefined local variable 
 We'll soon learn all about reading error messages.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/ruby-lecture-intro-what-is-a-program'>What is a Program?</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>KWK-T1 What is a Program?</p>
